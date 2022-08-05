@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+        td,th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+            border: 1px solid black;
+        }
+        thead, tfoot{
+            background-color: gray;
+            color: white;
+        }
+        img {
+            width: 40px;
+        }
+        td.num{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso Das Tabelas grandes</h1>
+
+    
+    <table>
+        <caption>População dos Estados</caption>
+        <thead>
+            <tr>
+                <th></th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width:100px ;">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Bandeira_do_estado_de_S%C3%A3o_Paulo.svg/480px-Bandeira_do_estado_de_S%C3%A3o_Paulo.svg.png" alt=""></th>
+                <td>São Paulo</td>
+                <td class="num">46 649 132</td>
+            </tr>
+            <tr>
+                <th><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Bandeira_de_Minas_Gerais.svg/480px-Bandeira_de_Minas_Gerais.svg.png" alt=""></th>
+                <td>Minas Gerais</td>
+                <td class="num">19 597 330</td>
+            </tr>
+            <tr>
+                <th><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Bandeira_do_estado_do_Rio_de_Janeiro.svg/480px-Bandeira_do_estado_do_Rio_de_Janeiro.svg.png" alt="">></th>
+                <td> Rio de Janeiro	</td>
+                <td class="num">15 989 929</td>
+            </tr>
+            <tr>
+                <th><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Bandeira_da_Bahia.svg/480px-Bandeira_da_Bahia.svg.png" alt=""></th>
+                <td> Bahia</td>
+                <td class="num">14 016 906</td>
+            </tr>
+            <tr>
+                <th><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Bandeira_do_Paran%C3%A1.svg/480px-Bandeira_do_Paran%C3%A1.svg.png" alt=""></th>
+                <td> Paraná</td>
+                <td class="num">10 444 526	</td>
+            </tr>
+            <tr>
+                <th><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Bandeira_do_Rio_Grande_do_Sul.svg/480px-Bandeira_do_Rio_Grande_do_Sul.svg.png" alt=""></th>
+                <td> Rio Grande do Sul</td>
+                <td class="num">10 693 929</td>
+            </tr>
+            <tr>
+                <th><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Bandeira_de_Pernambuco.svg/480px-Bandeira_de_Pernambuco.svg.png" alt=""></th>
+                <td>Pernambuco</td>
+                <td class="num">8 796 448</td>
+            </tr>
+            <tr>
+                <th><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Bandeira_do_Cear%C3%A1.svg/480px-Bandeira_do_Cear%C3%A1.svg.png" alt=""></th>
+                <td> Ceará</td>
+                <td class="num">8 452 381</td>
+            </tr>
+            <tr>
+                <th><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Bandeira_do_Par%C3%A1.svg/480px-Bandeira_do_Par%C3%A1.svg.png" alt=""></th>
+                <td> Pará</td>
+                <td class="num">7 581 051</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th></th>
+                <th>Total de Habitantes</th>
+                <td class="num">142.221.632</td>
+            </tr>
+
+        </tfoot>
+    </table>
+    
+</body>
+</html>
